@@ -1,0 +1,24 @@
+{
+    "ext-attach-config":{
+        "configFiles": [
+            "${workspaceFolder}/project/gd32f30x/gd32f303-demo/debugconfig/openocd.cfg",
+            "${workspaceFolder}/project/gd32f30x/gd32f303-demo/debugconfig/gd32f30x.cfg"
+        ],
+        "svdFile": "${workspaceFolder}/project/gd32f30x/gd32f303-demo/debugconfig/GD32F30x_HD.svd",
+        "liveWatch": {
+            "enabled": true,
+            "samplesPerSecond": 4
+        }
+    },
+    "ext-launch-config":{
+        "configFiles": [
+            "${workspaceFolder}/project/gd32f30x/gd32f303-demo/debugconfig/openocd.cfg",
+            "${workspaceFolder}/project/gd32f30x/gd32f303-demo/debugconfig/gd32f30x.cfg"
+        ],
+        "svdFile": "${workspaceFolder}/project/gd32f30x/gd32f303-demo/debugconfig/GD32F30x_HD.svd",
+        "liveWatch": {
+            "enabled": true,
+            "samplesPerSecond": 4
+        }
+    }
+}

@@ -1,5 +1,6 @@
 rsource "mcxn947/Kconfig"
 rsource "gd32f10x/Kconfig"
+rsource "gd32f30x/Kconfig"
 rsource "gd32e23x/Kconfig"
 rsource "gd32vf103x/Kconfig"
 rsource "stm32f0xx/Kconfig"

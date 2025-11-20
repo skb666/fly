@@ -1,0 +1,23 @@
+---
+Language:        Cpp
+BasedOnStyle:    Google
+
+# 基本缩进设置
+IndentWidth:     4
+TabWidth:        4
+UseTab:          Never
+
+# 大括号换行设置
+BreakBeforeBraces: Allman
+
+# 行长度设置
+ColumnLimit: 0
+
+# 控制 extern "C" 块内的缩进
+IndentExternBlock: false
+
+# 控制类权限管理符号顶格缩进
+AccessModifierOffset: -4
+
+# 保持头文件包含顺序不变
+SortIncludes: false
